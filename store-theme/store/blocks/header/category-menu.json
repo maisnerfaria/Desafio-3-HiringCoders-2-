@@ -1,0 +1,89 @@
+{
+  "vtex.menu@2.x:menu#category-menu": {
+    "props": {
+      "experimentalOptimizeRendering": true
+    },
+    "children": [
+      "menu-item#category-promoções",
+      "menu-item#category-corinthians",
+      "menu-item#category-uberlândia",
+      "menu-item#category-divertidos",
+      "menu-item#category-guerreiros"
+    ]
+  },
+  "menu-item#category-promoções": {
+    "props": {
+      "id": "menu-item-category-promoções",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/promoções/",
+        "noFollow": false,
+        "tagTitle": "Promoções",
+        "text": "Promoções"
+      }
+    }
+  },
+  "menu-item#category-corinthians": {
+    "props": {
+      "id": "menu-item-category-corinthians",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Corinthians/",
+        "noFollow": false,
+        "tagTitle": "Corinthians",
+        "text": "Corinthians"
+      }
+    }
+  },
+  "menu-item#category-uberlândia": {
+    "props": {
+      "id": "menu-item-category-uberlândia",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Uberlândia/",
+        "noFollow": false,
+        "tagTitle": "Uberlândia E.C",
+        "text": "Uberlândia E.C"
+      }
+    }
+  },
+  "menu-item#category-divertidos": {
+      "props": {
+        "id": "menu-item-category-divertidos",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/divertidos/",
+          "noFollow": false,
+          "tagTitle": "Divertidos",
+          "text": "Divertidos"
+        }
+   }
+ },
+ "menu-item#category-guerreiros": {
+  "props": {
+    "id": "menu-item-category-guerreiros",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/Guerreiros/",
+      "noFollow": false,
+      "tagTitle": "Guerreiros",
+      "text": "Guerreiros"
+    }
+}
+}
+}
